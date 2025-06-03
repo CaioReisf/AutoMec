@@ -6,7 +6,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    font-family: "Bebas Neue", sans-serif;
+    /*font-family: "Bebas Neue", sans-serif;*/
 }
 
 html{
@@ -16,17 +16,22 @@ html{
 body{
     display: flex;
     flex-flow: column wrap;
-    background-image: black url(imagens/principais-inovacoes-no-mercado-de-oficinas-mecanicas-o-que-evoluiu-nos-ultimos-anos.png) center;
+    background: black url(imagens/fu\ doo.png) center no-repeat fixed;
+    background-size: cover;
+    
 }
 
 header{
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 50px;
+    justify-content: space-between;
+    gap: 90px;
     padding: 30px;
-    background-color: #002C57;
-    color: white;
+    /* background-color: #002C57;*/     
+    top: 0;
+    z-index: 1;
+    position: sticky;
+    
     
 }
 
@@ -36,22 +41,23 @@ header nav ul{
     justify-content: center;
     gap: 60px;
     list-style: none;
-    color: white;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header nav ul li a{
     color: white;
     list-style: none;
     text-decoration: none;
-    
 }
 
 header nav ul li a:hover{
-    text-decoration: underline 3px;
-    
+    transition: 0.5s;
+   /*text-decoration: underline 2px;*/
+   border: white solid 1px;
+   border-radius: 100px;
+   padding: 10px;
 }
 
 header nav ul span{
     color: white;
-    
 }
