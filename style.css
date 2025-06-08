@@ -429,3 +429,77 @@ footer {
     display: none; /* Esconde o menu padrão */
   }
 }
+
+
+
+.form-section {
+  background-color: #002C57;
+  padding: 40px 20px;
+  
+  text-align: center;
+}
+
+.form-section h2 {
+  font-size: 28px;
+  margin-bottom: 30px;
+  color: white;
+}
+
+.contact-form {
+  max-width: 500px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: bold;
+  color: #333;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 12px 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+  transition: border-color 0.3s ease;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  border-color: #007BFF;
+  outline: none;
+}
+
+button[type="submit"] {
+  background-color: #007BFF;
+  color: white;
+  font-size: 16px;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+/* Responsivo */
+@media (max-width: 600px) {
+  .contact-form {
+    padding: 20px;
+  }
+}
