@@ -51,6 +51,14 @@ header nav ul span {
   padding: 5px;
 }
 
+header nav ul span:hover {
+    transition: 0.5s;
+    color:white;
+    background-color: #002C57;
+    border-radius: 100px;
+    padding: 5px;
+}
+
 /* SEÇÃO 2 */
 .s2 {
   background-color: white;
